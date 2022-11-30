@@ -546,7 +546,7 @@ export default class Graph extends React.Component {
 
   constructor(props) {
     super(props);
-
+    console.log(props.data);
     if (!this.props.id) {
       throwErr(this.constructor.name, ERRORS.GRAPH_NO_ID_PROP);
     }
